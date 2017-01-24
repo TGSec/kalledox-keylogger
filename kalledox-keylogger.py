@@ -34,7 +34,8 @@ parser.add_argument('-s', '--stdout',
                     action='store_true')
 parser.add_argument('-t', '--timeout',
                     help='define the maximum time (in seconds) of keylogger execution.',
-                    action='store')
+                    action='store',
+                    type=int)
 parser.add_argument('-v', '--verbose',
                     help='make the keylogger print more information at the stdout (incompatible with -q and -s).',
                     action='store_true')
