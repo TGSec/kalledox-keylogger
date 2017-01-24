@@ -1,6 +1,9 @@
 # Kalledox-keylogger
 A simple but powerful offline keylogger.
 
+# Warning
+YOU ARE RESPONSIBLE OF EVERYTHING DID WITH THIS APPLICATION. THE AUTHOR HAVEN'T ANY RELATION WITH THE USE OF THIS SOFTWARE.
+
 # Usage
 
 ```
