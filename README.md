@@ -24,7 +24,9 @@ optional arguments:
 kalledox-keylogger.py --output myfriendpwd.txt
 ```
 (and your friend do login facebook in your computer)  
-```kalledox-keylogger.py --stdout```
+```
+kalledox-keylogger.py --stdout
+```
 Prints the pressed stuff on console
 
 #License
