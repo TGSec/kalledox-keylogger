@@ -1,0 +1,6 @@
+#v0.1 - 24/01/2017 (day/month/year)
++ First release!
+
+#v0.2 - 26/01/2017
++ Bug solved when a invalid file was specified to --output
++ Little code improve
