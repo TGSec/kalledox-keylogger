@@ -27,7 +27,7 @@ optional arguments:
 ```
 kalledox-keylogger.py --output myfriendpwd.txt
 ```
-(and your friend do login facebook in your computer)  
+...and your friend do login facebook in your computer (just joking).  
 ```
 kalledox-keylogger.py --stdout
 ```
